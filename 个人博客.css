@@ -1,0 +1,40 @@
+.Content {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+.head {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(203, 222, 248);
+  align-items: center;
+  align-content: space-evenly;
+  text-align: center;
+  padding: 40px;
+  flex: 1;
+}
+.wenzi {
+  color: rgb(214, 88, 88);
+  font-size: 25px;
+  padding: 50px;
+}
+.Body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(241, 232, 220);
+  flex: 5;
+  padding: 40px;
+}
+.Introduction {
+  font-size: 20px;
+  padding: 40px;
+}
+.tail {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(203, 222, 248);
+  justify-content: space-around;
+  padding: 40px;
+  flex: 1;
+}
